@@ -1,0 +1,473 @@
+body {
+    background-image: url(../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.othPags {
+    background-image: url(../assets/img/cont-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0.5em 2em 0.5em 2em;
+    padding: 1em;
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+    opacity: 95%;
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+.navbar {
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.navbar-brand {
+    text-align: center;
+    background-color: #0f0a55;
+    box-shadow: 0px 1px 50px aqua;
+    margin: auto;
+    padding: 1em;
+    border-radius: 2em;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    font-size: 1.4em;
+    color: white; 
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #ff0000;
+    }
+    to {
+        text-shadow: 0 0 10px #00ff4c, 0 0 10px #00ffff;
+    }
+}
+
+.navbar-brand:hover {
+    transition: 300ms;
+    color: aqua
+}
+
+.nav-item {
+    text-align: center;
+    background-color: #0f0a55;
+    box-shadow: 0px 1px 50px aqua;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 2em;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.nav-item:hover {
+    transition: 500ms;
+    box-shadow: inset 10px 0 0 0 #4781ff;
+    background-color: white;
+}
+
+.nav-link:hover {
+    transition: 200ms;
+    filter: saturate(200%);
+    color: #0f0a55;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 1em;
+    padding: 1em;
+    background-color: #0f0a55;
+    font-family: "Russo One", sans-serif;
+    font-size: 1.5em;
+    color: white;
+    box-shadow: 0px 1px 50px aqua;
+    border-radius: 1em;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #ff0000;
+    }
+    to {
+        text-shadow: 0 0 10px #00ff4c, 0 0 10px #00ffff;
+    }
+}
+
+.text {
+    padding: 1em;
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.container-xl {
+    margin: 2em;
+    padding: 1em;
+    background-image: url(../assets/img/cont-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+.container-xl h2 {
+    margin: 0.5em;
+    font-family: "Russo One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    color: #0f0a55;
+    text-align: center;
+}
+
+#movies-container {
+    margin: auto;
+    padding: 0.5em;
+    background-image: url(../assets/img/cont-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+    max-width: 1200px;
+    opacity: 95%;
+}
+
+#movies-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movTitCont  {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.movies-title {
+    background-image: url(../assets/img/cont-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: #4781ff solid 0.1em;
+    font-family: "Russo One", sans-serif;
+    font-size: 1.5em;
+    color: white;
+    box-shadow: 0px 1px 50px aqua;
+    border-radius: 1em;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+    padding: 1em;
+    opacity: 95%;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #ff0000;
+    }
+    to {
+        text-shadow: 0 0 10px #00ff4c, 0 0 10px #00ffff;
+    }
+}
+
+.movie {
+    width: 20em;
+    background-image: url(../assets/img/cont-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 1em;
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 1em;
+    background-color: #0f0a55;
+    box-shadow: 0 0 0.5em 0.1em #4781ff;
+}
+
+.movie:hover {
+    transition: 500ms;
+    transform: scale(1.05);
+}
+
+.movie img {
+    max-width: 15rem;
+    max-height: 15rem;
+    margin: 1em;
+}
+
+.movie h3 {
+    margin: 0.5em;
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+.movie p {
+    margin: 0.6em;
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+}
+
+.movie button {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+    background-color: #0f0a55;
+    font-family: "Russo One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    transition: opacity 0.4s ease-in-out; 
+    opacity: 0;
+}
+
+.movie:hover button {
+    opacity: 1; 
+}
+
+#project-container {
+    background-image: url(../assets/img/cont-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+    opacity: 95%;
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+#project-container form {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.form-label{
+    font-family: "Russo One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.helper {
+    font-size: 0.8em;
+    color: white;
+}
+
+#cinema-story {
+    margin: 1em;
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+}
+
+#story-container {
+    margin: 0.5em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+}
+
+#brothers-cont {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.brothers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brothImg {
+    width: 150px;
+    height: 150px;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.brothers h2 {
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+}
+
+.brothers p {
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+.thomas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.thomImg {
+    width: 150px;
+    height: 150px;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.thomas-info h2 {
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+}
+
+.thomas-info p {
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+#rcmndWebs {
+    background-image: url(../assets/img/cont-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 2em;
+    border: rgb(71, 129, 255) solid 0.1em;
+    border-radius: 1em;
+    opacity: 95%;
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+#websites {
+    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+}
+
+#rcmndWebs img {
+    margin: 1em;
+    padding: 1em;
+    background-color: #e0fbfc;
+    height: 10em;
+    width: 10em;
+    border-radius: 5em;
+    box-shadow: 0px 1px 50px aqua;
+}
+
+.cards {
+    margin: 2em;
+    width: 7.5em;
+    height: 7.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards:hover {
+    transform: rotate(360deg);
+    transition: 300ms;
+}
+
+#formSector  {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/img/cont-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0.5em 2em 0.5em 2em;
+    padding: 1em;
+    border-radius: 1em;
+    border: #4781ff solid 0.1em;
+    opacity: 95%;
+    max-width: 720px;
+    margin: 0.5em auto;
+}
+
+.form-label {
+    font-family: "Russo One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
